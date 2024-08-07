@@ -1,0 +1,127 @@
+/* Form section */
+h1{
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+    text-align: center;
+}
+
+.loyalty-form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-text{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.form-loyalty{
+    margin-bottom: 10px;
+}
+
+.loyalty-benefits{
+    padding-left: 20px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(76, 175, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button:hover {
+    background-color: rgb(76, 174, 76);
+    transform: scale(1.05);
+}
+/* Form section ends here*/
+
+/* Shopping cart badge section*/
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: 73px;
+    background-color: orange;
+    color: white;
+    border-radius: 45%;
+    padding: 2px 6px;
+    font-size: 0.70rem;
+}
+
+.cart-total {
+    margin-left: 4px;
+    font-size: 1rem;
+    color: white;
+    
+}
+/* Shopping cart badge section ends here*/
+
+
+@media screen and (max-width:800px){
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-ul li{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .search-input {
+        width: 260px;
+    }
+    .loyalty-form{
+        padding: 20px;
+        margin: 20px;
+        
+       
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-logo, .links{
+        flex: none;
+    }
+
+}
