@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Registration</title>
+
+    <link rel="stylesheet" href="styles/loyaltystyle.css">
+    <link rel="stylesheet" href="styles/header&footer.css">
+
+    <!-- To get icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icons ends here -->
+
+    <!-- favicon logo icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-package/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon logo icon ends here-->
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="cover-image">
+            <img src="images/other/background-cover.jpg" alt="bg">
+        </div>
+        <!-- Navigation Section -->
+        <nav>
+            <div class="navigation">
+                <ul class="nav-ul">
+                    <li><a href="homepage.html" class="nav-a">Home</a></li>
+                    <li><a href="aboutUs.html" class="nav-a">About Us</a></li>
+                    <li><a href="vegetables.html" class="nav-a">Vegetables</a></li>
+                    <li><a href="dairyProduct.html" class="nav-a">Dairy Products</a></li>
+                    <li><a href="cosmetics.html" class="nav-a">Cosmetics and skin care</a></li>
+                    <li><a href="loyaltyRegistration.html" class="nav-a">Loyalty Registration</a></li>
+                    <li><a href="products.html" class="nav-a">Order Now</a></li>
+                </ul>
+                <div class="search">
+                    <form class="nav-form">
+                        <input type="text" placeholder="Search...." title="search" name="search" class="search-input">
+                        <button type="submit" id="nav-button"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav><br>
+
+        <h1>Loyalty Registration</h1>
+        <form action="#" class="loyalty-form">
+            <div class="form-section">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" class="input-text" placeholder="Enter Your Full Name..."><br>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" class="input-text" required><br>
+
+                <label for="tel">Telephone No:</label>
+                <input type="tel" name="phone" id="tel" maxlength="10" required><br>
+
+                <label for="nic">NIC No:</label>
+                <input type="text" name="nic" id="nic" class="input-text" required><br>
+            </div>
+
+            <div class="form-section form-loyalty">
+                <span>Choose a Loyalty Scheme:</span><br>
+
+                <input type="radio" id="gold" name="loyalty" value="gold" required>
+                <label for="gold">Gold</label>
+                <div class="loyalty-benefits" id="gold-benefits">
+                    <p>Gold Scheme Benefits:</p>
+                    <ul>
+                        <li>10% discount on every purchase</li>
+                        <li>Exclusive access to special events</li>
+                        <li>Priority customer support</li>
+                        <li>Birthday gift</li>
+                    </ul>
+                </div>
+
+                <input type="radio" id="silver" name="loyalty" value="silver" required>
+                <label for="silver">Silver</label>
+                <div class="loyalty-benefits" id="silver-benefits">
+                    <p>Silver Scheme Benefits:</p>
+                    <ul>
+                        <li>5% discount on every purchase</li>
+                        <li>Special offers on selected items</li>
+                        <li>Access to quarterly promotions</li>
+                    </ul>
+                </div>
+
+                <input type="radio" id="bronze" name="loyalty" value="bronze" required>
+                <label for="bronze">Bronze</label>
+                <div class="loyalty-benefits" id="bronze-benefits">
+                    <p>bronze Scheme Benefits:</p>
+                    <ul>
+                        <li>3% discount on every purchase</li>
+                        <li>Points rewards for every purchase</li>
+                        <li>Monthly rewards</li>
+                    </ul>
+                </div>
+
+                <div class="form-section">
+                    <button type="submit" class="button">Register</button>
+                    <button type="reset" class="button">Clear</button>
+                </div>
+            </div>
+        </form><br>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">Grocies Supermarket</a>
+            
+                <div class="social">
+                    <a href="#" title="facebook"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" title="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" title="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" title="youtube"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                    <li><a href="dairyProduct.html">Diary products</a></li>
+                    <li><a href="cosmetics.html">Cosmetics</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Quick links</strong>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Contact</strong>
+                <ul>
+                    <li>Phone: 0112345678/0776272837</li>
+                    <li>Email: grociessupermarket@gmail.com</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyrights">
+            <p>&copy;2024 Grocies Supermarket. All Rights Reserved.</p>
+        </div>
+
+         <!-- All the contents/descriptions are AI generated texts -->
+    </footer>
+    
+</body>
+</html>
