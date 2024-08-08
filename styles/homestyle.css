@@ -1,0 +1,183 @@
+/* display photos */
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+.container1 img{
+    max-width: 32.33%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* styles for introduction */
+.intro{
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(51, 51, 51);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-p{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* styles for introduction ends here */
+
+/* styles for services offer */
+.services{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: disc;
+}
+
+.services h2{
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services li{
+    margin-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+/* styles for services offer ends here */
+
+/* styles for sub sections */
+.sub-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex-direction:row;
+    text-align: center;
+
+}
+
+.sub-section img {
+    width: 35%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px 0;
+    margin: 7px;
+}
+
+.text-content h2 {
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    color: rgb(75, 71, 71);
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* styles for sub sections ends here */
+
+/* styles for weekly specials */
+.weekly-specials {
+    background-color: rgb(249, 249, 249);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weekly-specials h2 {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+.weekly-specials p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 20px;
+}
+
+.weekly-specials ol {
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.weekly-specials li {
+    flex: 1 1 30%;
+    display: inline-block;
+    margin: 10px;
+    transition: color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.weekly-specials li:hover {
+    color: rgb(255, 99, 71);
+    
+}
+/* styles for weekly specials ends here */
+
+
+@media screen and (max-width:770px){
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-ul li{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .search-input {
+        width: 260px;
+    }
+
+    .container1 img{
+        max-width: 100%;
+        height: auto;
+    }
+    .sub-section{
+        flex-direction: column;
+    }
+    .sub-section img{
+        width: 80%;
+    }
+    .weekly-specials li{
+        flex: 1 1 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-logo, .links{
+        flex: none;
+    }
+
+}

@@ -1,0 +1,149 @@
+/* Branches Section */
+.branches {
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch-content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.branch-image img {
+    width: 45%; 
+    height: 435px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.branch-description{
+    flex: 1;
+    padding: 20px;
+}
+
+.branches h2 {
+    color: rgb(51, 51, 51);
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.branch-description p {
+    color: rgb(75, 71, 71);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.branch-map{
+    width: 100%; 
+    margin-top: 20px;    
+}
+
+.branch-map iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+/* Branches Section ends here */
+
+/* Table */
+.table-services{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-spacing: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.table-services thead th{
+    background-color:rgb(164, 161, 161);
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+
+.table-services tbody tr{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.table-services tbody tr:nth-of-type(odd){
+    background-color: rgb(234, 232, 232);
+}
+
+.table-services td {
+    padding: 7px;
+    text-align: left;
+}
+
+.table-services tfoot {
+    font-weight: bold;
+}
+
+.table-services tfoot td {
+    text-align: center;
+}
+
+.table-services td:first-child {
+    font-weight: bold;
+}
+/* Table ends here */
+
+
+@media (max-width:800px){
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-ul li{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .search-input {
+        width: 260px;
+    }
+
+    .branch-content{
+        flex-direction: column;
+    }
+    .branch-image img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .branch-description{
+        padding: 10px;
+    }
+    .branch-map iframe{
+        height: 200px;
+    }
+    .table-services {
+        overflow-x: auto;
+        margin: auto;
+   
+    }
+    .table-services td, .table-services th {
+        font-size: 14px;
+       
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-logo, .links{
+        flex: none;
+    }
+
+}
+
