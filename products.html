@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/header&footer.css">
+
+    <!-- To get icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icons ends here -->
+
+    <!-- favicon logo icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-package/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon logo icon ends here-->
+
+</head>
+<body>
+    <header>
+        
+
+    </header>
+
+    <main>
+        <div class="cover-image">
+            <img src="images/other/background-cover.jpg" alt="bg">
+        </div>
+    
+        <!-- Navigation Section -->
+        <nav class="navbar">
+            <div class="navigation">
+                <ul class="nav-ul">
+                    <li><a href="homepage.html" class="nav-a">Home</a></li>
+                    <li><a href="aboutUs.html" class="nav-a">About Us</a></li>
+                    <li><a href="vegetables.html" class="nav-a">Vegetables</a></li>
+                    <li><a href="dairyProduct.html" class="nav-a">Dairy Products</a></li>
+                    <li><a href="cosmetics.html" class="nav-a">Cosmetics and skin care</a></li>
+                    <li><a href="loyaltyRegistration.html" class="nav-a">Loyalty Registration</a></li>
+                    <li><a href="products.html" class="nav-a">Order Now</a></li>
+                </ul>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Search...." title="search" name="search" class="search-input">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+               <!-- Shopping Cart Section -->
+                <div class="cart-icon" id="cart-icon">
+                    <div class="openCart">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="cart-total" id="cart-total">Rs.0.00/=</span>
+                    </div>                    
+                </div>
+                
+                <div class="cart">
+                    <div class="cart-header">
+                        <p><span class="closeCart">&times;</span>Shopping Cart</p>
+                    </div>
+                    <div class="cart-items">
+                        <!-- Dynamically added cart items will go here -->
+                    </div>
+                    <div class="cart-empty-message">Cart is empty</div>
+                    <div class="cart-sub-total">
+                        
+                        <!-- sub total of the cart will update here -->
+                    </div>
+                    
+                    <div class="checkout">
+                        <div class="save-to-favorites button-primary">Add to Favorites</div>
+                        <div class="apply-favorites button-primary">Apply Favorites</div>
+                        <div class="buyNow button-primary">Buy Now</div>
+                    </div>
+                </div> 
+                <!-- Shopping Cart Section ends here -->  
+            </div>   
+        </nav><br>
+        <!-- Navigation Section ends here -->
+
+        <!-- Products Section -->
+         <div class="intro">
+            <h1>Vegetables</h1>
+         </div><br>
+        
+        <section class="items">
+            <div class="product">
+                <img src="images/vegetables/babyCarrot.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Baby Carrot (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.520/=</b>
+                     <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="images/vegetables/beetroot.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Beetroot (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.400/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/vegetables/butterBeans.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Butter Beans (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.800/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/vegetables/capsicum.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Capsicum (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.250/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/vegetables/knol.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Knol Khol (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.240/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/vegetables/leeks.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Leeks (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.270/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/vegetables/potatoes.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Potatoes (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.520/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/vegetables/raddish.jpg" alt="vegetables" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Raddish (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.320/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            
+        </section><br>
+
+        <div class="intro">
+            <h1>Fruits</h1>
+         </div><br>
+
+         <section class="items">
+            <div class="product">
+                <img src="images/fruits/cherimo.jpg" alt="cherimo" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Cherimo (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.800/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div> 
+            <div class="product">
+                <img src="images/fruits/mandarin.jpg" alt="mandarin" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Mandarin (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1650/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/dragonFruit.jpg" alt="dragon fruit" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Dragon Fruit (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1300/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/durian.jpg" alt="durian" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Durian (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1200/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/grapes.jpg" alt="grapes" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Grapes - Red (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1335/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/pineapple.jpg" alt="pineapple" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Pineapple (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.900/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/pomergranate.jpg" alt="pomegranate" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Pomegranate (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1200/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/fruits/rambutan.jpg" alt="rambutan" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Rambutan (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.690/=</b> 
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section><br>
+
+         <div class="intro">
+            <h1>Dairy Products</h1>
+         </div><br>
+
+         <section class="items">
+            <div class="product">
+                <img src="images/dairy-products/ambewelaChocolateMilk.jpg" alt="ambewela chocolate milk" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Ambewela Flavoured Milk Choco 1000mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.580/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/happyCowRegular.jpg" alt="cheese" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">H/Cow Cheese Portion Regular 200g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1780/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/anchorButter.jpg" alt="butter" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Anchor Fresh Butter Unsalted 227g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1300/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">  
+                <img src="images/dairy-products/masSmooth.jpg" alt="butter" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Mas Smooth Peanut Butter 325g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1400/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/newdaleChoco.jpg" alt="newdale choco" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Newdale Fresh Milk Chocolate 180ml</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.140/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/richlifeCheeseSlices.jpg" alt="cheese" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Richlife Cheese Slices 10S 200g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.970/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/imorichChoc.jpg" alt="ice cream" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Imorich Choc Choc Chip I/C 1L</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1100/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/dairy-products/cadburyIceCream.jpg" alt="ice cream" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Cadbury Dairy Milk Ice Cream Tub 480ml</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.4000/=</b><p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section><br>
+
+        <div class="intro">
+            <h1>Meat and Seafood</h1>
+         </div><br>
+
+         <section class="items">
+            <div class="product">
+                <img src="images/meat-and-seafood/chickenBreasts.jpg" alt="chicken breasts" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Chicken Breasts (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1980/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/chickenLegs.jpg" alt="Chicken legs" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Chicken Legs (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.2080/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/beef.jpg" alt="beef" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Beef (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.3130/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div> 
+            <div class="product">
+                <img src="images/meat-and-seafood/porkChops.jpg" alt="pork" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Pork Chops (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.2600/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/octapus.jpg" alt="octopus" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Octopus (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1510/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/prawns.jpg" alt="prawns" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Prawns (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.2100/=</b> <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/seaChicken.jpg" alt="sea chicken" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Sea Chicken (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.840/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/meat-and-seafood/thalapath.jpg" alt="thalapath" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Thalapath (1KG)</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1990/=</b>
+                     <p>
+                        <input type="number" title="quantity" value="0" step="0.1" data-step="0.1" >
+                        <b>KG</b>
+                    </p>
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section><br>
+
+         <div class="intro">
+            <h1>Cosmetics and Skin Care</h1>
+         </div><br>
+
+         <section class="items">
+            <div class="product">
+                <img src="images/cosmetics/faceWashAloe.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">ForEver Face Wash Aloe Lavender 100mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.350/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div> 
+            <div class="product">
+                <img src="images/cosmetics/auricaFaceWash.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Aurica Fairness Face Wash Saffron 100mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.690/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/faceWashKohomba.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">ForEver Face Wash Kohomba Kaha 100mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.350/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/faceWashRose.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">4Ever Face Wash Rose Anti Acne 100mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.350/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/goldWhitening.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">4Ever Gold Whitening Face Wash 100ml</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.390/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/mensFaceWash.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Glow & Handsome Men's Facewash 50g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.580/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/natureFashWashCarrot.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Nature Secrets Face Wash Carrot 225mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.640/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/cosmetics/natureFashWashPapaya.jpg" alt="face wash" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Nature Secrets Papaya Face Wash 100mL</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.370/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section><br>
+
+         <div class="intro">
+            <h1>Baking and Cooking Ingredients</h1>
+         </div><br>
+
+         <section class="items">
+            <div class="product">
+                <img src="images/baking-ingredients/cakeFlour.jpg" alt="cake flour" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Cake flour 1KG</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.410/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div> 
+            <div class="product">
+                <img src="images/baking-ingredients/cookingChocolate.jpg" alt="cooking chocolate" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Cooking Chocolate 400g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.850/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/icingSugar.jpg" alt="icing sugar" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Icing Sugar 500g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.395/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/sugar.jpg" alt="sugar" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Brown Sugar 1KG</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.460/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/eggs.jpg" alt="eggs" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Egg Extra Large 10S</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.667/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/cocoaPowder.jpg" alt="cocoa powder" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Cocoa Powder 50g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.430/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/oliveOil.jpg" alt="olive oil" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Olive Oil 250ML</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.1990/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/baking-ingredients/salt.jpg" alt="salt" class="product-image">  <!-- Keells (2023). --> 
+                <h3 class="product-title">Salt 100g</h3>
+                <div class="product-details">
+                    <b class="product-price">Price: Rs.140/=</b>
+                    <p>
+                        <input type="number" title="quantity" value="0" step="1" data-step="1">
+                        <b>KG</b>
+                    </p> 
+                    <button class="button button-primary add-to-cart" type="button"><i class="fa fa-shopping-cart"></i>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section><br>
+        <!-- Products Section ends here -->           
+
+    </main><br>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">Grocies Supermarket</a>
+            
+                <div class="social">
+                    <a href="#" title="facebook"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" title="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" title="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" title="youtube"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                    <li><a href="dairyProduct.html">Diary products</a></li>
+                    <li><a href="cosmetics.html">Cosmetics</a></li>
+
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Quick links</strong>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <li><a href="loyaltyRegistration.html">Loyalty Registration</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <strong>Contact</strong>
+                <ul>
+                    <li>Phone: 0112345678/0776272837</li>
+                    <li>Email: grocies.supermarket@gmail.com</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyrights">
+            <p>&copy;2024 Grocies Supermarket. All Rights Reserved.</p>
+        </div>
+
+
+        <!-- All the contents/descriptions are AI generated texts -->
+    </footer>
+
+    <script src="JS.js"></script>
+    
+    
+</body>
+</html>
